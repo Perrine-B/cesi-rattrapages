@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+.search-section {
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.notification {
+    width: 35vw;
+}
+.search-form {
+    width: 35vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.results-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 90vh;
+    padding: 20px
+}
