@@ -23,10 +23,24 @@ main {
 }
 .results-section {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50vw;
     height: 90vh;
     padding: 20px
+}
+
+.displayed-movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.is-danger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 30vw
 }
