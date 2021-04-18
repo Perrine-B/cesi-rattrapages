@@ -55,7 +55,7 @@ const app = {
   },
   generateResponseContainer: function (responseLength) {
     app.cleanResultSection();
-    // Récupère le nom de résultats renvoyés
+    // Récupère le nombre de résultats renvoyés
     let containerTitle = "";
     if (responseLength === 1) {
       containerTitle = `Votre recherche a renvoyé ${responseLength} réponse`;
@@ -180,6 +180,7 @@ const app = {
       app.generateError();
     }
   },
+  // Génère de nouveaux résultats au scroll (limité à 30 - probablement dû à l'API)
   handleScrollOnResultList: async function (e) {
     if (
       window.innerHeight + window.scrollY ===
